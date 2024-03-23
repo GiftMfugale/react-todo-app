@@ -1,0 +1,44 @@
+.item {
+    font-size: 1rem;
+    list-style-type: none;
+    padding: 14px 25px;
+    border-bottom: 1px solid #fff;
+    background:#d8dddd;
+
+}
+
+.content-input {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:1rem;
+}
+
+.content-input span {
+    flex: 1;
+    order:1;
+
+}
+
+.content-input button{
+    cursor: pointer;
+    background:transparent;
+    border: none;
+    outline: none;
+    order: 2;
+    margin-left: 7px;
+}
+
+.content-input svg{
+    color: #5e5e5e;
+    font-size:15px;
+    margin-top: 2px;
+}
+
+.edit-title{
+    width: 100%;
+    padding:10px;
+    border: 1px solid #dfdfdf;
+    outline:none;
+    
+}
